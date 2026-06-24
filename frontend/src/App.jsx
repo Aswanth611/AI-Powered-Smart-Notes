@@ -52,7 +52,7 @@ export default function App() {
 
     try {
       // Send request to Express backend
-      const response = await axios.post('http://localhost:5000/api/analyze', {
+      const response = await axios.post('https://ai-powered-smart-notes-4559.onrender.com/api/analyze', {
         text: trimmedText
       });
 
